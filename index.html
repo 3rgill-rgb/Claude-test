@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Designer & Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">AM<span class="dot">.</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#work" class="mobile-link">Work</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-text" aria-hidden="true">HELLO</div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Available for new projects</p>
+      <h1 class="hero__title">
+        I design &amp; build<br />
+        <em>digital things</em><br />
+        that matter.
+      </h1>
+      <p class="hero__subtitle">
+        Full-stack developer and product designer crafting thoughtful,<br class="br-desktop" />
+        human-centred experiences.
+      </p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Let's talk</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-wrap">
+          <div class="about__image-placeholder">
+            <div class="about__initials">AM</div>
+          </div>
+          <div class="about__tag">Open to work</div>
+        </div>
+        <div class="about__text">
+          <span class="section-label">About me</span>
+          <h2 class="section-title">Crafting with code,<br /><em>thinking in design.</em></h2>
+          <p>
+            I'm a designer and developer with a love for clear thinking and purposeful making.
+            I believe the best products are the ones that disappear — tools so intuitive they
+            simply become extensions of the people using them.
+          </p>
+          <p>
+            When I'm not shipping features, I'm usually exploring generative art, hiking
+            through forests, or hunting for the perfect espresso.
+          </p>
+          <div class="about__skills">
+            <div class="skill-pill">UI / UX Design</div>
+            <div class="skill-pill">React &amp; Next.js</div>
+            <div class="skill-pill">TypeScript</div>
+            <div class="skill-pill">Node.js</div>
+            <div class="skill-pill">Figma</div>
+            <div class="skill-pill">Motion Design</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Selected work</span>
+        <h2 class="section-title">Projects I'm proud of.</h2>
+      </div>
+      <div class="work__grid">
+
+        <article class="project-card project-card--featured">
+          <div class="project-card__image" style="--hue: 145;">
+            <div class="project-card__mockup">
+              <div class="mockup-bar"></div>
+              <div class="mockup-lines">
+                <div></div><div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-tag">Product Design</span>
+              <span class="project-tag">Development</span>
+            </div>
+            <h3 class="project-card__title">Verdant Dashboard</h3>
+            <p class="project-card__desc">
+              A real-time analytics platform for sustainability teams tracking carbon footprints across global supply chains.
+            </p>
+            <a href="#" class="project-card__link">View case study →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image" style="--hue: 200;">
+            <div class="project-card__mockup">
+              <div class="mockup-bar"></div>
+              <div class="mockup-lines">
+                <div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-tag">Mobile App</span>
+            </div>
+            <h3 class="project-card__title">Tempo — Focus Timer</h3>
+            <p class="project-card__desc">
+              Minimalist productivity app with adaptive intervals and calm audio environments.
+            </p>
+            <a href="#" class="project-card__link">View case study →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image" style="--hue: 30;">
+            <div class="project-card__mockup">
+              <div class="mockup-bar"></div>
+              <div class="mockup-lines">
+                <div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-tag">Branding</span>
+              <span class="project-tag">Web</span>
+            </div>
+            <h3 class="project-card__title">Harvest Co-op</h3>
+            <p class="project-card__desc">
+              Brand identity and e-commerce site for a local organic food collective.
+            </p>
+            <a href="#" class="project-card__link">View case study →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats strip -->
+  <div class="stats-strip">
+    <div class="container">
+      <div class="stats-strip__inner">
+        <div class="stat">
+          <span class="stat__number">5+</span>
+          <span class="stat__label">Years experience</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__number">30+</span>
+          <span class="stat__label">Projects shipped</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__number">12</span>
+          <span class="stat__label">Happy clients</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__number">∞</span>
+          <span class="stat__label">Coffees consumed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <span class="section-label">Get in touch</span>
+        <h2 class="section-title contact__title">
+          Got a project in mind?<br /><em>Let's make it happen.</em>
+        </h2>
+        <p class="contact__sub">
+          I'm currently available for freelance work and full-time roles.<br class="br-desktop" />
+          Drop me a line — I reply within 24 hours.
+        </p>
+        <a href="mailto:hello@alexmorgan.dev" class="btn btn--primary btn--large">
+          hello@alexmorgan.dev
+        </a>
+        <div class="contact__socials">
+          <a href="#" class="social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M4 20L20 4"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Dribbble">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__copy">© 2026 Alex Morgan. All rights reserved.</span>
+        <span class="footer__made">Designed &amp; built with care.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
