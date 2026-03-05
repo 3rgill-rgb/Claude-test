@@ -665,6 +665,134 @@ ul { list-style: none; }
 }
 
 /* ============================================
+   BLOG
+   ============================================ */
+.blog {
+  background-color: var(--white);
+}
+
+.blog-post {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.blog-post__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.blog-post__date,
+.blog-post__read {
+  font-size: 0.8125rem;
+  color: var(--neutral-400);
+}
+
+.blog-post__dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  display: inline-block;
+}
+
+.blog-post__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--neutral-900);
+  margin-bottom: 1.25rem;
+}
+
+.blog-post__title em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.blog-post__intro {
+  font-size: 1.0625rem;
+  color: var(--neutral-500);
+  line-height: 1.8;
+  border-left: 3px solid var(--green-mid);
+  padding-left: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.blog-post__header {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--neutral-200);
+  margin-bottom: 2.5rem;
+}
+
+.blog-post__body p {
+  font-size: 0.9875rem;
+  color: var(--neutral-500);
+  line-height: 1.85;
+  margin-bottom: 1.25rem;
+}
+
+.blog-post__body em {
+  font-style: italic;
+  color: var(--neutral-700);
+}
+
+.blog-post__subheading {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--neutral-900);
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.blog-callout {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  background-color: var(--neutral-50);
+  border: 1px solid var(--neutral-200);
+  border-left: 3px solid var(--green);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.blog-callout__icon {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--green);
+  font-weight: 400;
+  padding-top: 0.15rem;
+  line-height: 1;
+}
+
+.blog-callout strong {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--neutral-900);
+  margin-bottom: 0.4rem;
+}
+
+.blog-callout p {
+  margin-bottom: 0 !important;
+}
+
+.blog-post__sign-off {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--neutral-200);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--neutral-500);
+}
+
+/* ============================================
    CONTACT
    ============================================ */
 .contact {

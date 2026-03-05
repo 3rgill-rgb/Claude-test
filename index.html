@@ -18,6 +18,7 @@
       <ul class="nav__links">
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
@@ -28,6 +29,7 @@
       <ul>
         <li><a href="#about" class="mobile-link">About</a></li>
         <li><a href="#work" class="mobile-link">Work</a></li>
+        <li><a href="#blog" class="mobile-link">Blog</a></li>
         <li><a href="#contact" class="mobile-link">Contact</a></li>
       </ul>
     </div>
@@ -202,6 +204,162 @@
       </div>
     </div>
   </div>
+
+  <!-- Blog -->
+  <section class="blog section" id="blog">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">From the blog</span>
+        <h2 class="section-title">Thinking out loud.</h2>
+      </div>
+
+      <article class="blog-post reveal">
+        <div class="blog-post__header">
+          <div class="blog-post__meta">
+            <span class="blog-post__date">March 5, 2026</span>
+            <span class="blog-post__dot" aria-hidden="true"></span>
+            <span class="blog-post__read">6 min read</span>
+            <span class="blog-post__dot" aria-hidden="true"></span>
+            <span class="project-tag">AI &amp; Finance</span>
+          </div>
+          <h3 class="blog-post__title">
+            Your Boss Won't Stop Talking About AI.<br />
+            <em>Here's the thing — they're right.</em>
+          </h3>
+          <p class="blog-post__intro">
+            Every finance leader I know has a version of this story: the CEO bursts into the
+            week's agenda with another breathless article about AI, and the room quietly braces
+            itself. The eye-rolls are subtle but universal. I used to be one of those eye-rollers.
+            Then I actually started paying attention — and I'm glad I did.
+          </p>
+        </div>
+
+        <div class="blog-post__body">
+
+          <h4 class="blog-post__subheading">First, a confession.</h4>
+          <p>
+            When my former CFO started every Monday standup with "so I was reading about AI
+            this weekend…" my instinct was to tune out and mentally restructure the month-end
+            close calendar. Finance people are, by nature, sceptical. We like evidence. We like
+            things that reconcile. A buzzword cycle that's moved faster than any ERP implementation
+            I've ever seen is not, on its face, comforting.
+          </p>
+          <p>
+            But here's what I've learned after implementing Salesforce for a $300M private equity
+            portfolio company, rolling out FloQast and Tesorio across multi-entity structures, and
+            redesigning finance cycles from Procure-to-Pay to Record-to-Report: the boring,
+            operational, unglamorous parts of finance are <em>exactly</em> where AI earns its keep.
+          </p>
+
+          <h4 class="blog-post__subheading">What AI is actually good at in finance.</h4>
+          <p>
+            Let's be specific, because vague enthusiasm is what got us into the eye-roll problem
+            in the first place.
+          </p>
+
+          <div class="blog-callout">
+            <div class="blog-callout__icon">01</div>
+            <div>
+              <strong>Close management &amp; reconciliation.</strong>
+              <p>
+                Tools like FloQast now layer AI on top of the close checklist — flagging anomalies
+                in account balances, surfacing items that historically cause delays, and suggesting
+                who should own a task based on past close behaviour. When I first rolled out
+                FloQast, the manual overhead of assigning and tracking reconciliations alone was
+                consuming 20% of the team's close week. AI-assisted triage changes that dynamic
+                fundamentally.
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-callout">
+            <div class="blog-callout__icon">02</div>
+            <div>
+              <strong>Cash forecasting and AR collections.</strong>
+              <p>
+                Tesorio's AI engine doesn't just show you aged receivables — it predicts payment
+                behaviour by customer based on historical patterns and flags accounts likely to
+                pay late before they actually do. For a finance team managing working capital
+                across several entities, that's not a nice-to-have. That's the difference between
+                a proactive treasury conversation and a reactive one at 4pm on a Friday.
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-callout">
+            <div class="blog-callout__icon">03</div>
+            <div>
+              <strong>Process design &amp; documentation.</strong>
+              <p>
+                When I lead end-to-end finance process redesigns — Procure-to-Pay, Lead-to-Cash,
+                Record-to-Report — a significant chunk of the early work is interviewing stakeholders,
+                mapping current state, and drafting process documentation. AI tools have compressed
+                that cycle materially. I can feed a call transcript into an AI tool and get a
+                structured process narrative back in minutes. That's time I redirect into the
+                harder work: identifying control gaps, challenging assumptions, and getting
+                stakeholder buy-in.
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-callout">
+            <div class="blog-callout__icon">04</div>
+            <div>
+              <strong>CRM &amp; pipeline data quality.</strong>
+              <p>
+                After our Salesforce implementation, one of the first questions from the CFO was
+                predictable: "can we trust this data?" AI-powered data hygiene tools that sit on
+                top of Salesforce — deduplicating accounts, flagging stale opportunities,
+                normalising field entries — mean the answer gets to "yes" faster. A finance team
+                can only do useful revenue forecasting if the pipeline data feeding the model is
+                clean. AI is increasingly the thing keeping it clean.
+              </p>
+            </div>
+          </div>
+
+          <h4 class="blog-post__subheading">What AI is not going to do.</h4>
+          <p>
+            It is not going to replace the CPA who understands the business. Full stop. The
+            judgement calls in financial reporting — the ones where accounting standards are
+            ambiguous, where management estimates require defence, where a restatement risk
+            needs to be weighed — those require someone who has sat across from an auditor and
+            knows how the conversation goes. AI cannot do that.
+          </p>
+          <p>
+            It is also not going to fix a broken process by itself. I've seen finance teams
+            reach for AI tooling as a shortcut around process problems that are fundamentally
+            organisational. If your Procure-to-Pay cycle is chaotic because three departments
+            are creating POs in three different ways with no approval workflow, an AI layer on
+            top of that chaos is just faster chaos. Design the process first. Then let AI
+            accelerate it.
+          </p>
+
+          <h4 class="blog-post__subheading">So what do you actually do when your boss won't stop?</h4>
+          <p>
+            You listen. And then you get specific. Ask them which part of the finance operation
+            they think AI could improve, and watch the conversation sharpen immediately. In my
+            experience, the AI-enthusiasm from leadership is rarely about the technology itself —
+            it's about a real frustration with slow closes, unreliable forecasts, or manual
+            processes that feel like they belong in a different decade.
+          </p>
+          <p>
+            Those frustrations are valid. And increasingly, there are tools that address them
+            directly — not with magic, but with disciplined implementation and a willingness to
+            actually change how the team works.
+          </p>
+          <p>
+            The boss might be annoying about it. They're not wrong about it. That's worth
+            something.
+          </p>
+
+          <div class="blog-post__sign-off">
+            <span>— Robin, CPA</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
 
   <!-- Contact -->
   <section class="contact section" id="contact">
